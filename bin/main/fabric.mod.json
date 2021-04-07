@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "1.0.5",
+
+  "name": "Test Mod",
+  "description": "Just a test mod",
+  "authors": [
+    "Flickoretoz"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.flickoretoz.Main"
+    ],
+    "config": [
+      "net.flickoretoz.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

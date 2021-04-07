@@ -1,0 +1,10 @@
+toggleA = true
+toggleB = false
+
+[stuff]
+a = 0
+b = 1
+
+[invisibleStuff]
+a = 0
+b = 1

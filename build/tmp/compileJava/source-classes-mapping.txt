@@ -1,0 +1,6 @@
+net/flickoretoz/config/ModMenuIntegration.java
+ net.flickoretoz.config.ModMenuIntegration
+net/flickoretoz/DFXtra.java
+ net.flickoretoz.DFXtra
+net/flickoretoz/config/ModConfig.java
+ net.flickoretoz.config.ModConfig
